@@ -9,8 +9,8 @@ collection run keeps going.
 from __future__ import annotations
 
 import time
-from collections.abc import Iterable, Iterator, Sequence
-from typing import Any, Callable, TypeVar
+from collections.abc import Callable, Iterable, Iterator, Sequence
+from typing import Any, TypeVar
 
 from .models import Listing, ListingDetails, SearchPage
 from .parsing import (
